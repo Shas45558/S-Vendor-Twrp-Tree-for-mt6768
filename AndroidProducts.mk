@@ -21,4 +21,4 @@ PRODUCT_MAKEFILES := \
 
 COMMON_LUNCH_CHOICES := \
 	twrp_lancelot-userdebug \
-	twrp_lancelot-ap2a-eng
+	twrp_lancelot-trunk_staging-eng
