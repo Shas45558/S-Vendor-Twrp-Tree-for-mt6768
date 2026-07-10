@@ -20,5 +20,5 @@ PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/twrp_lancelot.mk
 
 COMMON_LUNCH_CHOICES := \
-	twrp_lancelot-userdebug \
-	twrp_lancelot-trunk_staging-eng
+	twrp_lancelot-ap2a-userdebug \
+	twrp_lancelot-ap2a-eng
