@@ -20,6 +20,7 @@ DEVICE_PATH := device/xiaomi/lancelot
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
+BUILD_BROKEN_PLUGIN_VALIDATION=true
 
 # Architecture
 TARGET_ARCH := arm64
