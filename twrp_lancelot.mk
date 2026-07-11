@@ -41,7 +41,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.bootimage.build.date.utc=0 \
     ro.build.date.utc=0
 
-PRODUCT_BUILD_BROKEN_PLUGIN_VALIDATION := \
+BUILD_BROKEN_PLUGIN_VALIDATION := \
     soong-libaosprecovery_defaults \
     soong-libguitwrp_defaults \
     soong-libminuitwrp_defaults \
