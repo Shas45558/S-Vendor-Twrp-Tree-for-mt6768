@@ -20,7 +20,7 @@ DEVICE_PATH := device/xiaomi/lancelot
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
-BUILD_BROKEN_PLUGIN_VALIDATION=true
+
 
 # Architecture
 TARGET_ARCH := arm64
@@ -109,7 +109,6 @@ TARGET_BOOTLOADER_BOARD_NAME := mt6768
 # Hack: prevent anti rollback
 PLATFORM_SECURITY_PATCH := 2099-12-31
 VENDOR_SECURITY_PATCH := 2099-12-31
-PLATFORM_VERSION := 16.1.0
 
 # TWRP Configuration
 TW_BRIGHTNESS_PATH := "/sys/devices/platform/leds-mt65xx/leds/lcd-backlight/brightness"
