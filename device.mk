@@ -18,6 +18,9 @@
 
 LOCAL_PATH := device/xiaomi/lancelot
 
+PRODUCT_FULL_TREBLE_OVERRIDE := true
+BOARD_VNDK_VERSION := current
+
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
